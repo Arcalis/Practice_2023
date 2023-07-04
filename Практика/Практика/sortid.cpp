@@ -1,7 +1,8 @@
 #include"Header.h"
 
-int sortid(int size, int* mas) {
-	int loop = 0;
+int sortid(int size, int* mas) 
+{
+	double start = GetTickCount();
 	long long int trans = 0;
 	int save;
 	for (int exit = 1;exit < size; exit++) {
@@ -14,5 +15,8 @@ int sortid(int size, int* mas) {
 			}	
 		}
 	}
-	return loop, trans;
+	double final = GetTickCount() - start;
+	system("cls");
+	printf("Сортировка выполнена успешно! Результат находится в файле output.txt\n\nКоличество перестановок - %lli.\nВремя выполнения сортировки - %g c.", trans, final / 1000);
+	return 0;
 }

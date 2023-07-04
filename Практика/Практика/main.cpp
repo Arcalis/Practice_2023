@@ -8,7 +8,6 @@ int main()
     bool work = true;
     int* mas;
     int x = 0;
-    long long int trans = 0;
 
     input = fopen("input", "w+");
     output = fopen("output", "w+");
@@ -50,11 +49,7 @@ int main()
             input_masize(mas, input, size);
             break; 
         case '3':
-            double start = GetTickCount();
-            trans = sortid(size, mas);
-            double final = GetTickCount() - start;
-            system("cls");
-            printf("Сортировка выполнена успешно! Результат находится в файле output.txt\n\nКоличество перестановок - %d.\nВремя выполнения сортировки - %g c.", trans, final/1000);
+            sortid(size, mas);
             output_mas(size, mas, output);
             work = false;
             break;
