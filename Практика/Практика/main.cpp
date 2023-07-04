@@ -52,7 +52,9 @@ int main()
         case '3':
             double start = GetTickCount();
             trans = sortid(size, mas);
-            printf("Количество перестановок - %d.\n Время затраченное на сортировку - %g c.", trans, GetTickCount()/1000 - start/1000);
+            double final = GetTickCount() - start;
+            system("cls");
+            printf("Сортировка выполнена успешно! Результат находится в файле output.txt\n\nКоличество перестановок - %d.\nВремя выполнения сортировки - %g c.", trans, final/1000);
             output_mas(size, mas, output);
             work = false;
             break;
