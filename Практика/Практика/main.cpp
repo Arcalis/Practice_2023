@@ -8,6 +8,7 @@ int main()
     bool work = true;
     int* mas;
     int x = 0;
+    long long int trans = 0;
 
     input = fopen("input", "w+");
     output = fopen("output", "w+");
@@ -47,14 +48,15 @@ int main()
 
         case '2':
             input_masize(mas, input, size);
-            break;
+            break; 
         case '3':
-            sortid(size, mas);
+            double start = GetTickCount();
+            trans = sortid(size, mas);
+            printf("Количество перестановок - %d.\n Время затраченное на сортировку - %g c.", trans, GetTickCount()/1000 - start/1000);
             output_mas(size, mas, output);
             work = false;
             break;
         }
-
     }
     return 0;
 }

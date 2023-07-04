@@ -1,9 +1,11 @@
-﻿  input.cpp
-  output.cpp
-  size_mas.cpp
+﻿  main.cpp
+C:\Users\Arcalis\Documents\GitHub\Practice_2023\Практика\Практика\main.cpp(5,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\Arcalis\Documents\GitHub\Practice_2023\Практика\Практика\main.cpp(33,34): warning C4838: Преобразование из "int" в "char" требует сужающего преобразования.
+C:\Users\Arcalis\Documents\GitHub\Practice_2023\Практика\Практика\main.cpp(55,20): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "1" имеет тип "__int64"
+C:\Users\Arcalis\Documents\GitHub\Practice_2023\Практика\Практика\main.cpp(55,20): message : рекомендуется использовать "%lld" в строке форматирования
+C:\Users\Arcalis\Documents\GitHub\Practice_2023\Практика\Практика\main.cpp(55,20): message : рекомендуется использовать "%Id" в строке форматирования
+C:\Users\Arcalis\Documents\GitHub\Practice_2023\Практика\Практика\main.cpp(55,20): message : рекомендуется использовать "%I64d" в строке форматирования
   sortid.cpp
-  main.cpp
-D:\Загрузки\94aab94167729567\Практика\main.cpp(5,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-D:\Загрузки\94aab94167729567\Практика\main.cpp(32,34): warning C4838: Преобразование из "int" в "char" требует сужающего преобразования.
+C:\Users\Arcalis\Documents\GitHub\Practice_2023\Практика\Практика\sortid.cpp(17,13): warning C4244: return: преобразование "__int64" в "int", возможна потеря данных
   Создание кода...
-  Практика.vcxproj -> D:\Загрузки\94aab94167729567\x64\Debug\Практика.exe
+  Практика.vcxproj -> C:\Users\Arcalis\Documents\GitHub\Practice_2023\Практика\x64\Debug\Практика.exe

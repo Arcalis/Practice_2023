@@ -129,7 +129,6 @@
   <ItemGroup>
     <ClCompile Include="input.cpp" />
     <ClCompile Include="output.cpp" />
-    <ClCompile Include="size_mas.cpp" />
     <ClCompile Include="sortid.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
