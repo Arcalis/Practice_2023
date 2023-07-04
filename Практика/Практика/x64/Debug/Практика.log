@@ -1,9 +1,2 @@
-﻿  input.cpp
-  output.cpp
-  size_mas.cpp
-  sortid.cpp
-  main.cpp
-D:\Загрузки\94aab94167729567\Практика\main.cpp(5,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-D:\Загрузки\94aab94167729567\Практика\main.cpp(32,34): warning C4838: Преобразование из "int" в "char" требует сужающего преобразования.
-  Создание кода...
-  Практика.vcxproj -> D:\Загрузки\94aab94167729567\x64\Debug\Практика.exe
+﻿  sortid.cpp
+  Практика.vcxproj -> C:\Users\Arcalis\Documents\GitHub\Practice_2023\Практика\x64\Debug\Практика.exe

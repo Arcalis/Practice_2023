@@ -47,14 +47,13 @@ int main()
 
         case '2':
             input_masize(mas, input, size);
-            break;
+            break; 
         case '3':
             sortid(size, mas);
             output_mas(size, mas, output);
             work = false;
             break;
         }
-
     }
     return 0;
 }
